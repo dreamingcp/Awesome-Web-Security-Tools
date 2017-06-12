@@ -1,0 +1,38 @@
+---------------------------------------------------
+ssh 隧道
+---------------------------------------------------
+# 参考资料 : 
+#   http://www.cnblogs.com/ch3n3y/p/5874215.html
+# ssh 隧道
+ssh -f -N -R local_port:remote_ip:remote_port chicken_user@chicken_ip
+#正向隧道，监听本地port
+ssh -qTfnN -L port:host:hostport -l user remote_ipi
+#反向隧道，用于内网穿透防火墙限制之类
+ssh -qTfnN -R port:host:hostport -l user remote_ip   
+#直接进行socks代理
+SSH -qTfnN -D port remotehost
+
+---------------------------------------------------
+主机发现命令
+---------------------------------------------------
+Linux : 
+```
+for ((i=1; i<256; i++)) do\
+echo "Checking...[${i}]";\
+ping -c 1 192.168.1.${i} | grep ttl;\
+done
+```
+Windows : 
+```
+for /l %i in (1,1,255) do \
+@ping 192.168.1.%i -w 1 -n 1 | find /i "ttl"
+```
+---------------------------------------------------
+端口扫描命令
+---------------------------------------------------
+```
+for ((i=1; i<256; i++)) do\
+echo "Checking...[${i}]";\
+nc -z -v 192.168.1.${i} 0-1024;\
+done
+```
