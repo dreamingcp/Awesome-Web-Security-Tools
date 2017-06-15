@@ -1,0 +1,112 @@
+2017-06-13 13:50:08,215 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,215 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,229 ERROR routersploit.exceptions       Error during loading 'routersploit/modules/exploits/routers/multi/ssh_auth_keys'
+
+Error: 'module' object has no attribute 'port'
+
+It should be valid path to the module. Use <tab> key multiple times for completion.
+Traceback (most recent call last):
+  File "/root/Desktop/web/tools/route_sploit/routersploit/utils/__init__.py", line 66, in import_exploit
+    module = importlib.import_module(path)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/Desktop/web/tools/route_sploit/routersploit/modules/exploits/routers/multi/ssh_auth_keys.py", line 14, in <module>
+    class Exploit(exploits.Exploit):
+  File "/root/Desktop/web/tools/route_sploit/routersploit/modules/exploits/routers/multi/ssh_auth_keys.py", line 59, in Exploit
+    ssh_port = exploits.Option(22, 'Target SSH Port', validators=validators.port)  # target port
+AttributeError: 'module' object has no attribute 'port'
+2017-06-13 13:50:08,231 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,239 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,240 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,251 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,252 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,257 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,259 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,268 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,271 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,274 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,279 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,284 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,291 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,294 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,295 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,297 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,304 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,307 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,337 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,343 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,347 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,378 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,378 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,378 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,380 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,380 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,401 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,427 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,436 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,436 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,436 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,464 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,474 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,476 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,482 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,484 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,484 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,485 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,491 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,504 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,504 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,508 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,509 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,513 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,516 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,520 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,524 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,527 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,528 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,529 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,533 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,535 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,538 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,539 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,552 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,554 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,555 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,556 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,567 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,568 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,569 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,570 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,578 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,580 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,583 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,589 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,591 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,594 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,595 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,602 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,603 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,605 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,616 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,617 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,634 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,634 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,641 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,643 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,652 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,657 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,664 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:08,670 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:13,624 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:13,630 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,322 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,329 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,335 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,341 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,347 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,352 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,360 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,369 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,376 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,381 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
+2017-06-13 13:50:18,388 DEBUG urllib3.connectionpool       Starting new HTTP connection (1): 192.169.1.254
