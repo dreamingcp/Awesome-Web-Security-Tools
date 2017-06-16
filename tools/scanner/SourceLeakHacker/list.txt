@@ -19,6 +19,9 @@ WEB-INF/lib
 WEB-INF/database.propertie
 CVS/Root
 CVS/Entries
+app/
+web/
+www/
 .bzr/
 .idea/workspace.xml
 ?
