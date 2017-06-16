@@ -45,3 +45,4 @@ phpinfo.php
 test.php
 .bash_history
 .txt
+info.php
