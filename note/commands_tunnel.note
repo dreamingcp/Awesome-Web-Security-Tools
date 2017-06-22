@@ -8,7 +8,8 @@ ssh -f -N -R local_port:remote_ip:remote_port chicken_user@chicken_ip
 #正向隧道，监听本地port
 ssh -qTfnN -L port:host:hostport -l user remote_ipi
 #反向隧道，用于内网穿透防火墙限制之类
-ssh -qTfnN -R port:host:hostport -l user remote_ip   
+ssh -qTfnN -R 2333:localhost:22 vps@vps.com
+# 然后直接登录 vps , ssh localhost -p 2333
 #直接进行socks代理
 SSH -qTfnN -D port remotehost
 
