@@ -7,7 +7,6 @@
 Burp or Burp Suite is a graphical tool for testing Web application security. The tool is written in Java and developed by PortSwigger Security.
 ```
 
----
 
 ## 爆破 :  
 [cheetch](https://github.com/sunnyelf/cheetah)
@@ -19,7 +18,6 @@ Cheetah is a dictionary-based brute force password webshell tool, running as fas
 Patator was written out of frustration from using Hydra, Medusa, Ncrack, Metasploit modules and Nmap NSE scripts for password guessing attacks. I opted for a different approach in order to not create yet another brute-forcing tool and avoid repeating the same shortcomings. Patator is a multi-threaded tool written in Python, that strives to be more reliable and flexible than his fellow predecessors.
 ```
 
----
 
 ## 社会工程学工具 :  
 [ccupp](https://github.com/WangYihang/ccupp)
@@ -31,14 +29,13 @@ Patator was written out of frustration from using Hydra, Medusa, Ncrack, Metaspl
 Common User Passwords Profiler
 ```
 
----
 
 ## 子域名枚举工具 :  
 ```
 subdomain3
 subDomainBrute
 ```
----
+
 ## 密码搜集工具 : 
 
 [LaZagne](https://github.com/AlessandroZ/LaZagne)
@@ -55,8 +52,6 @@ mimikatz is a tool I've made to learn C and make somes experiments with Windows 
 Windows Credentials Editor (WCE) is a security tool that allows to list Windows logon sessions and add, change, list and delete associated credentials (e.g.: LM/NT hashes, Kerberos tickets and cleartext passwords).
 ```
 
-----------
-
 ## 远程管理工具 :  
 
 [antSward](https://github.com/antoor/antSword/tree/master)
@@ -69,7 +64,6 @@ You can use it easily and intuitively to management your website(webshell).
 基于终端的 Webshell 管理工具
 ```
 
----
 
 ## 路由攻击工具 :  
 
@@ -78,7 +72,6 @@ You can use it easily and intuitively to management your website(webshell).
 The RouterSploit Framework is an open-source exploitation framework dedicated to embedded devices.
 ```
 
----
 
 ## 扫描器 :  
 
@@ -101,7 +94,6 @@ python插件化漏洞扫描器
 动态多线程敏感信息泄露检测工具
 ```
 
----
 
 ## 源码泄露利用工具 :  
 
@@ -116,7 +108,6 @@ It can rip repositories even when directory browsing is turned off.
 Make sure to position yourself in empty directory where you want repositories to be downloaded/cloned.
 ```
 
----
 
 ## 隧道工具 :  
 
