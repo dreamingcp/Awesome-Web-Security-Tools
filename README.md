@@ -1,7 +1,6 @@
 # Awesome-Web-Security-Tools
 
 
----
 [BurpSuite](https://portswigger.net/burp)
 ```
 Burp or Burp Suite is a graphical tool for testing Web application security. The tool is written in Java and developed by PortSwigger Security.
