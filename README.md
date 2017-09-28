@@ -3,18 +3,25 @@
 
 [BurpSuite](https://portswigger.net/burp)
 ```
-Burp or Burp Suite is a graphical tool for testing Web application security. The tool is written in Java and developed by PortSwigger Security.
+Burp or Burp Suite is a graphical tool for testing Web application security. 
+The tool is written in Java and developed by PortSwigger Security.
 ```
 
 
 ## 爆破 :  
 [cheetch](https://github.com/sunnyelf/cheetah)
 ```
-Cheetah is a dictionary-based brute force password webshell tool, running as fast as a cheetah hunt for prey.
+Cheetah is a dictionary-based brute force password webshell tool, 
+running as fast as a cheetah hunt for prey.
 ```
 [patator](https://github.com/lanjelot/patator)
 ```
-Patator was written out of frustration from using Hydra, Medusa, Ncrack, Metasploit modules and Nmap NSE scripts for password guessing attacks. I opted for a different approach in order to not create yet another brute-forcing tool and avoid repeating the same shortcomings. Patator is a multi-threaded tool written in Python, that strives to be more reliable and flexible than his fellow predecessors.
+Patator was written out of frustration from using Hydra, Medusa, Ncrack, Metasploit modules 
+and Nmap NSE scripts for password guessing attacks. 
+I opted for a different approach in order to not create yet 
+another brute-forcing tool and avoid repeating the same shortcomings. 
+Patator is a multi-threaded tool written in Python, 
+that strives to be more reliable and flexible than his fellow predecessors.
 ```
 
 
@@ -30,16 +37,19 @@ Common User Passwords Profiler
 
 
 ## 子域名枚举工具 :  
+[subDomainBrute](https://github.com/lijiejie/subDomainsBrute)
 ```
-subdomain3
-subDomainBrute
+A simple and fast sub domain brute tool for pentesters. 
+It can rearch as fast as 1000 DNS queries per second.
 ```
 
 ## 密码搜集工具 : 
 
 [LaZagne](https://github.com/AlessandroZ/LaZagne)
 ```
-The LaZagne project is an open source application used to retrieve lots of passwords stored on a local computer. Each software stores its passwords using different techniques (plaintext, APIs, custom algorithms, databases, etc.). This tool has been developed for the purpose of finding these passwords for the most commonly-used software.
+The LaZagne project is an open source application used to retrieve lots of passwords stored on a local computer. 
+Each software stores its passwords using different techniques (plaintext, APIs, custom algorithms, databases, etc.). 
+This tool has been developed for the purpose of finding these passwords for the most commonly-used software.
 ```
 [mimikatz_trunk](https://github.com/gentilkiwi/mimikatz)
 ```
@@ -48,7 +58,9 @@ mimikatz is a tool I've made to learn C and make somes experiments with Windows 
 
 [wce](http://www.ampliasecurity.com/research/wcefaq.html)
 ```
-Windows Credentials Editor (WCE) is a security tool that allows to list Windows logon sessions and add, change, list and delete associated credentials (e.g.: LM/NT hashes, Kerberos tickets and cleartext passwords).
+Windows Credentials Editor (WCE) is a security tool 
+that allows to list Windows logon sessions and add, change, list and delete associated credentials 
+(e.g.: LM/NT hashes, Kerberos tickets and cleartext passwords).
 ```
 
 ## 远程管理工具 :  
@@ -135,7 +147,9 @@ DNS tunnel 工具
 https://www.aldeid.com/wiki/Dns2tcp
 https://tools.kali.org/maintaining-access/dns2tcp
 
-Dns2tcp is a tool for relaying TCP connections over DNS. Among other things, it can be used to bypass captive portals (e.g. hotels, airport, ...) when only port 53/udp is allowed by the firewall.
+Dns2tcp is a tool for relaying TCP connections over DNS. Among other things, 
+it can be used to bypass captive portals (e.g. hotels, airport, ...) 
+when only port 53/udp is allowed by the firewall.
 ```
 
 ---
